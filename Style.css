@@ -152,4 +152,8 @@ button{
         width: 10%;
 
     }
+
+    body {
+        background-color: lightgray;
+        }
 }
