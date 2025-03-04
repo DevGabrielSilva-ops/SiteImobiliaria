@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #039afe;
+    background-color: #082c47;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -121,7 +121,7 @@ footer {
     margin-left:20px;
     border-radius: 3px
     max-width 300px;
-    max-height: 150px;
+    max-height: 150px;   
 }
 
 button{
@@ -136,4 +136,20 @@ button{
     cursor: pointer;
     max-width: 80px;
     max-height: 25px;   
+}
+
+@media screen and (max-width: 700px) {
+    .logo img {
+        width: 20%;
+    }
+
+    header{
+        width: 100%
+    }
+
+    .header h1{
+        text-align: center;
+        width: 10%;
+
+    }
 }
