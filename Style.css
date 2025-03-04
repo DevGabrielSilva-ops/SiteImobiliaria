@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #039afe;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section{
+    margin-top: 30px;
+}
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.texto{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.imovel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+.imovel img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.imovel h3 {
+    color: #179df7;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2980b9;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3498db;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
+}
+
+.logo img{
+    display: flex;
+    align-items: flex-start;
+    margin-left:20px;
+    border-radius: 3px
+    max-width 300px;
+    max-height: 150px;
+}
+
+button{
+    display: block;
+    align-self: center;
+    
+    background-color: #0a95f1;
+    color: white;
+    padding:5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 80px;
+    max-height: 25px;   
+}
