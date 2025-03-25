@@ -51,6 +51,10 @@ h2 {
     margin-top: 10px;
 }
 
+.titulo{
+    width: 40%;
+}
+
 .imovel {
     background-color: white;
     border: 1px solid #ddd;
@@ -140,20 +144,29 @@ button{
 
 @media screen and (max-width: 700px) {
     .logo img {
-        width: 20%;
+        min-width: 5%;
     }
 
     header{
-        width: 100%
+        min-width: 600px;
     }
 
     .header h1{
         text-align: center;
-        width: 10%;
+        min-width: 600px;
 
     }
 
     body {
         background-color: lightgray;
+        min-width: 600px;
         }
+
+    .imovel{
+        min-width: 600px;
+    }
+
+    .titulo{
+        min-width: 600px;
+    }
 }
