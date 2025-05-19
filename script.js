@@ -18,3 +18,14 @@ document.getElementById('formContato').addEventListener('submit', function(event
     // Limpando o formulário
     document.getElementById('formContato').reset();
 });
+
+function MostrarMais() {
+    const menu = document.querySelector('.menu');
+
+    if (menu.style.display === 'none' || menu.style.display === ''){
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+
+};

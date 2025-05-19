@@ -78,6 +78,16 @@ h2 {
     margin-top: 10px;
 }
 
+.contatos{
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: justify;
+    text-decoration-line: overline;
+
+    background-color: whitesmoke;
+}
+
 form {
     background-color: white;
     padding: 20px;
