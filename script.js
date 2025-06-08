@@ -19,13 +19,14 @@ document.getElementById('formContato').addEventListener('submit', function(event
     document.getElementById('formContato').reset();
 });
 
-function MostrarMais() {
-    const menu = document.querySelector('.menu');
+function MostrarMais(botao) {
+    const texto = botao.nextElementSibling;
 
-    if (menu.style.display === 'none' || menu.style.display === ''){
-        menu.style.display = 'block';
+    if (texto.style.display === "none" || texto.style.display === "") {
+        texto.style.display = "block";
+        botao.textContent = "Veja menos";
     } else {
-        menu.style.display = 'none';
+        texto.style.display = "none";
+        botao.textContent = "Veja mais";
     }
-
-};
+}

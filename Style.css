@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins";
     background-color: #fbf9f9;
     color: #333;
     padding: 20px;
@@ -63,6 +64,11 @@ h2 {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.valor{
+    color: green;
+    font-size: larger;
 }
  
 
@@ -126,17 +132,47 @@ form button:hover {
 footer {
     text-align: center;
     margin-top: 30px;
-    font-size: 0.8em;
+    font-size: 20px;
+    width: 100%;
+    background-color:#2c3e50; 
+    color: #fff; 
+    padding: 40px 0;
 }
+
 
 .logo img{
     display: flex;
     align-items: flex-start;
     margin-left:20px;
     border-radius: 3px
-    max-width 300px;
-    max-height: 150px;   
+    max-width 200px;
+    max-height: 100px;   
 }
+
+.Face{
+    display: flex;
+    align-items:0 0flex-end ;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.Insta{
+    display: flex;
+    align-items:0 0flex-end ;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.Link{
+    display: flex;
+    align-items:0 0 0 flex-end ;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
 
 button{
     display: block;
@@ -152,7 +188,7 @@ button{
     max-height: 25px;   
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .logo img {
         min-width: 5%;
     }
@@ -179,4 +215,48 @@ button{
     .titulo{
         min-width: 600px;
     }
+
+       .footer{
+        width: 100%;
+        font-size: 80%;
+    }
+
+
 }
+
+ @media (max-width: 1024px) and (min-width: 601px) {
+        .logo img {
+        min-width: 5%;
+    }
+
+    header{
+        min-width: 600px;
+    }
+
+    .header h1{
+        text-align: center;
+        min-width: 600px;
+
+    }
+
+    body {
+        background-color: lightgray;
+        min-width: 600px;
+        }
+
+    .imovel{
+        min-width: 600px;
+    }
+
+    .titulo{
+        min-width: 600px;
+    }
+    footer{
+        width: 100%;
+        font-size: 80%;
+    }
+
+
+}
+
+
